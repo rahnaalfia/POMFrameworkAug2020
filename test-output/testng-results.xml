@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="9" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test started--> verifyLoginPageTitleTest
+]]>
+    </line>
+    <line>
+      <![CDATA[login page title is: HubSpot Login]]>
+    </line>
+    <line>
+      <![CDATA[Test ended--> verifyLoginPageTitleTest]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-08-11T07:57:43 IST" name="Hub Spot Sanity Test Suite" finished-at="2020-08-11T07:58:03 IST" duration-ms="19799">
+    <groups>
+    </groups>
+    <test started-at="2020-08-11T07:57:43 IST" name="hub spot sanity Test" finished-at="2020-08-11T07:58:03 IST" duration-ms="19799">
+      <class name="com.qa.hubspot.tests.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@1e4f4a5c]" started-at="2020-08-11T07:57:56 IST" name="setUp" finished-at="2020-08-11T07:57:57 IST" duration-ms="1231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.hubspot.tests.LoginPageTest@1e4f4a5c]" started-at="2020-08-11T07:57:57 IST" name="verifyLoginPageTitleTest" finished-at="2020-08-11T07:58:02 IST" duration-ms="5006" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started--> verifyLoginPageTitleTest
+]]>
+            </line>
+            <line>
+              <![CDATA[login page title is: HubSpot Login]]>
+            </line>
+            <line>
+              <![CDATA[Test ended--> verifyLoginPageTitleTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method signature="verifySignUpLinkTest()[pri:2, instance:com.qa.hubspot.tests.LoginPageTest@1e4f4a5c]" started-at="2020-08-11T07:58:02 IST" name="verifySignUpLinkTest" finished-at="2020-08-11T07:58:02 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpLinkTest -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@1e4f4a5c]" started-at="2020-08-11T07:58:03 IST" name="quitBrowser" finished-at="2020-08-11T07:58:03 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.qa.hubspot.tests.LoginPageTest -->
+      <class name="com.qa.hubspot.tests.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@37313c65]" started-at="2020-08-11T07:57:43 IST" name="setUp" finished-at="2020-08-11T07:57:56 IST" duration-ms="12371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageTitleTest()[pri:1, instance:com.qa.hubspot.tests.HomePageTest@37313c65]" started-at="2020-08-11T07:58:02 IST" name="verifyHomePageTitleTest" finished-at="2020-08-11T07:58:02 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method signature="verifyHomePageAppLogo()[pri:2, instance:com.qa.hubspot.tests.HomePageTest@37313c65]" started-at="2020-08-11T07:58:02 IST" name="verifyHomePageAppLogo" finished-at="2020-08-11T07:58:02 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageAppLogo -->
+        <test-method signature="verifyHomePageHeaderValueTest()[pri:3, instance:com.qa.hubspot.tests.HomePageTest@37313c65]" started-at="2020-08-11T07:58:02 IST" name="verifyHomePageHeaderValueTest" finished-at="2020-08-11T07:58:02 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageHeaderValueTest -->
+        <test-method signature="verifySignout()[pri:4, instance:com.qa.hubspot.tests.HomePageTest@37313c65]" started-at="2020-08-11T07:58:02 IST" name="verifySignout" finished-at="2020-08-11T07:58:03 IST" duration-ms="766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignout -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@37313c65]" started-at="2020-08-11T07:58:03 IST" name="quitBrowser" finished-at="2020-08-11T07:58:03 IST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.qa.hubspot.tests.HomePageTest -->
+    </test> <!-- hub spot sanity Test -->
+  </suite> <!-- Hub Spot Sanity Test Suite -->
+</testng-results>

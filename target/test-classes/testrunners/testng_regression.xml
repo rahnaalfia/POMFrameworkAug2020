@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<!-- Runner Template -To run Test as Collection -->
+<!-- verbose="4" to add more detailed info ,shall give 1,2,3,4,...10....better to use 4 or 5 -->
+<suite name="Hub Spot Regression Test Suite" verbose="4">
+	<test name="hub spot regression Test">
+		<classes>
+			<class name="com.qa.hubspot.tests.LoginPageTest" />
+			<class name="com.qa.hubspot.tests.HomePageTest" />
+
+		</classes>
+	</test>
+</suite>
