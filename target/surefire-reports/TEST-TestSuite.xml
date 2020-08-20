@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="22.831" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="24.43" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/rahnaalfia/Documents/Rahna/Installations/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.class.path" value="/Users/rahnaalfia/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.16.0.20200610-1735/jars/plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="user.timezone" value="Asia/Kolkata"/>
-    <property name="maven.conf" value="/Users/rahnaalfia/Documents/Rahna/Installations/apache-maven-3.6.3/conf"/>
     <property name="os.name" value="Mac OS X"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.6.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="maven.home" value="/Users/rahnaalfia/Documents/Rahna/Installations/apache-maven-3.6.3"/>
+    <property name="maven.home" value="/Users/rahnaalfia/Documents/Rahna/Workspace/FrameworkMania/EMBEDDED"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/rahnaalfia"/>
     <property name="user.language" value="en"/>
@@ -57,16 +56,15 @@
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vm.version" value="11.0.6+8-LTS"/>
-    <property name="classworlds.conf" value="/Users/rahnaalfia/Documents/Rahna/Installations/apache-maven-3.6.3/bin/m2.conf"/>
+    <property name="classworlds.conf" value="/Users/rahnaalfia/Documents/Rahna/Workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf3212617214671970533.tmp"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
-    <property name="library.jansi.path" value="/Users/rahnaalfia/Documents/Rahna/Installations/apache-maven-3.6.3/lib/jansi-native"/>
     <property name="java.class.version" value="55.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="verifyLoginPageTitleTest" classname="com.qa.hubspot.tests.LoginPageTest" time="5.368"/>
-  <testcase name="verifySignUpLinkTest" classname="com.qa.hubspot.tests.LoginPageTest" time="0.073"/>
-  <testcase name="verifyHomePageTitleTest" classname="com.qa.hubspot.tests.HomePageTest" time="0.004"/>
-  <testcase name="verifyHomePageAppLogo" classname="com.qa.hubspot.tests.HomePageTest" time="0.034"/>
-  <testcase name="verifyHomePageHeaderValueTest" classname="com.qa.hubspot.tests.HomePageTest" time="0.081"/>
-  <testcase name="verifySignout" classname="com.qa.hubspot.tests.HomePageTest" time="1.36"/>
+  <testcase name="verifyHomePageTitleTest" classname="com.qa.hubspot.tests.HomePageTest" time="0.033"/>
+  <testcase name="verifyHomePageAppLogo" classname="com.qa.hubspot.tests.HomePageTest" time="0.071"/>
+  <testcase name="verifyHomePageHeaderValueTest" classname="com.qa.hubspot.tests.HomePageTest" time="0.223"/>
+  <testcase name="verifySignout" classname="com.qa.hubspot.tests.HomePageTest" time="0.855"/>
+  <testcase name="verifyLoginPageTitleTest" classname="com.qa.hubspot.tests.LoginPageTest" time="7.299"/>
+  <testcase name="verifySignUpLinkTest" classname="com.qa.hubspot.tests.LoginPageTest" time="7.323"/>
 </testsuite>
